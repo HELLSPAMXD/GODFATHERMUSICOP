@@ -1,7 +1,7 @@
 {
-    "name": "ɪɴᴄʀɪᴄɪʙʟᴇ ダ ᴍᴜsɪᴄ",
+    "name": "sᴡᴇᴇᴛʜᴇᴀʀᴛダ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/7cc6d77a976ea506629f1.jpg",
+    "logo": "https://te.legra.ph/file/11d25afecf558f956f4f9.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "ɪɴᴄʀɪᴄɪʙʟᴇ ダ ᴍᴜsɪᴄ",
+        "value": "sᴡᴇᴇᴛʜᴇᴀʀᴛ ダ ᴍᴜsɪᴄ",
         "required": true
       },
       "OWNER_ID": {
@@ -43,7 +43,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "It's absolutely safe to leave this boat and don't leave any other boat, it may get hacked https://t.me/ANSH_MAKERBOT .",
         "value": "",
         "required": true
       },
