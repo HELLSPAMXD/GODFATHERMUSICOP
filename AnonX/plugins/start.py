@@ -43,7 +43,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgEAAxkBAAEBWTFklW8NczNn_oYHD3Y_GAqmJwVitAACnQMAAuT4eUQdGgE4vQ6j1y8E")
+            await message.reply_sticker("CAACAgUAAxkBAAEJlBdko-jOBXfg9HA2Cr_gjAsjAe0HBgACoBAAAkJAIFUfFpBLWv9HpC8E")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"], reply_markup=keyboard
@@ -138,7 +138,7 @@ async def start_comm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("🌶️")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -202,7 +202,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgEAAxkBAAEBWTFklW8NczNn_oYHD3Y_GAqmJwVitAACnQMAAuT4eUQdGgE4vQ6j1y8E")
+                await message.reply_sticker("CAACAgUAAxkBAAEJlBVko-hI_QeTRh9I7sB4erNQeP3WdwACswkAAiTSGFWAI8Pt4_1OWS8E")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
